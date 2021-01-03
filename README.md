@@ -10,7 +10,8 @@ Data Processing Tool principles of operation:
 7. In case dataset is large and number of features is > 50, bottom 20 features in violation dataset are discarded 
 
 What should be done better:
-- All pre-processing and analysis are done on background and on the Transfor stage only to make Analyze and Visualize sections more responsive
-- Threads + progress indication in all time-consuming processes
-- More meaningful correlation analysis 
+- Move all pre-processing and analysis to the background and on the Transform stage only to make Analyze and Visualize sections responsive
+- Add Threads + progress indication in all time-consuming processes
+- Make correlation analysis meaningful 
 - Either make UI fully interactive with dialog-like mode or switch to options to minimize questions
+- Add snapshots management mechanism + status preview for snapshots
