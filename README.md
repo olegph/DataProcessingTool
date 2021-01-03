@@ -13,3 +13,4 @@ What should be done better:
 - All pre-processing and analysis are done on background and on the Transfor stage only to make Analyze and Visualize sections more responsive
 - Threads + progress indication in all time-consuming processes
 - More meaningful correlation analysis 
+- Either make UI fully interactive with dialog-like mode or switch to options to minimize questions
