@@ -1,5 +1,10 @@
 # DataProcessingTool
 
+Setup:
+1. Demo dataset (trimmed version of the original one) is supplied and can be used if placed in the notebook folder
+2. MongoDB is looking for default config localhost:27017
+3. MongoDB dump is included, but will be created on start if not found 
+
 Data Processing Tool principles of operation:
 1. Backup is created automatically after every significant change in the data composition. There is no need to backup state manually 
 2. To roll back to any of the previous data states, Restore button should be used 
